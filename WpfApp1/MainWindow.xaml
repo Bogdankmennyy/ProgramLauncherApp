@@ -1,0 +1,13 @@
+﻿<Window x:Class="ProgramLauncherApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Program Launcher" Height="300" Width="400">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Launch Notepad" Click="LaunchNotepad_Click" />
+            <Button Content="Launch Calculator" Click="LaunchCalculator_Click" />
+            <Button Content="Launch Paint" Click="LaunchPaint_Click" />
+            <Button Content="Launch Custom Program" Click="LaunchCustomProgram_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
